@@ -3,10 +3,15 @@
 
 Map::Map(std::string startingLocationName)
 {
-	_currentLocation = new Location(startingLocationName);
+	CurrentLocation = new Location(startingLocationName);
 }
 
 
 Map::~Map()
 {
+}
+
+string Location::getName()
+{
+
 }
